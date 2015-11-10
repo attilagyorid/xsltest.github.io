@@ -17,3 +17,4 @@
         <DIV>from <I><xsl:value-of select="."/></I></DIV>
     </xsl:template>
 </xsl:stylesheet>
+modified
