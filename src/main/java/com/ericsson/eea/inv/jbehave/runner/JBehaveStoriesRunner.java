@@ -68,7 +68,7 @@ public class JBehaveStoriesRunner extends JUnitStories {
                         new StoryReporterBuilder()
                                 .withCodeLocation(CodeLocations.codeLocationFromClass(embeddableClass))
                                 .withDefaultFormats()
-                                .withReporters(storyReporter)
+                                //.withReporters(storyReporter)
                                 .withFormats(HTML, XML, CONSOLE, TXT)
                 )
                 .useParameterConverters(parameterConverters)
