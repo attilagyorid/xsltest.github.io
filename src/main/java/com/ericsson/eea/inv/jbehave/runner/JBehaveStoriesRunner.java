@@ -42,9 +42,8 @@ public class JBehaveStoriesRunner extends JUnitStories {
         configuredEmbedder()
                 .embedderControls()
                 .doGenerateViewAfterStories(true)
-                .doIgnoreFailureInStories(false)
+                .doIgnoreFailureInStories(true)
                 .doIgnoreFailureInView(false)
-                .doIgnoreFailureInStories(false)
                 .doVerboseFailures(false)
                 .doVerboseFiltering(false)
                 .useThreads(1);
